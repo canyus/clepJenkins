@@ -27,9 +27,14 @@ public class TestCenterSearchPage {
 	@FindBy(xpath=".//*[@id='clep_test_center_search']/div/form/div[7]/div/span/button")
 	public WebElement SearchButton;
 	
-	@FindBy(xpath=".//*[@id='clep_test_center_search']/div/div/div/div/div/div[1]/ul/li[2]/div/div[1]/ul/li[1]/span[1]")
+	@FindBy(xpath=".//*[@id='clep_test_center_search']/div/div/div/div/div/div[1]/ul/li[4]/div/div[1]/ul/li[2]/div[1]/a")
 	public WebElement GetDirectionsLink;
 	
+	@FindBy(xpath=".//*[@id='sb_ifc51']/input")
+	public WebElement destinationBox;
+	
+	@FindBy(xpath=".//*[@id='clep_test_center_search']/div/div/div/div/div/div[1]/ul/li[6]/div/div[2]/ul/li[3]/a/span[1]")
+	public WebElement visitWebSiteLink;
 	
 	
 	

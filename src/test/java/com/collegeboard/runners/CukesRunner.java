@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 plugin= {"html:target/cucumber", "json:target/report.json"},
 
 //All feature
-//features="./src/test/resources/com/collegeboard/features", 
+features="./src/test/resources/com/collegeboard/features", 
 
 //RegisterForClepExamFeature
 //features="./src/test/resources/com/collegeboard/features/RegisterForClepExams.feature",
@@ -22,10 +22,10 @@ plugin= {"html:target/cucumber", "json:target/report.json"},
 //features="./src/test/resources/com/collegeboard/features/TestCenterSearchPage.feature",
 
 //LoginFeature
-features="./src/test/resources/com/collegeboard/features/Login.feature",
+//features="./src/test/resources/com/collegeboard/features/Login.feature",
 
 glue="com.collegeboard.step_defs",
-tags= {"@Regression","~@Smoke", "~@Login"},
+tags= {"@Regression", "~@Regression2","~@Smoke", "~@Login"},
 //tags="@Regression, ~@Smoke",
 dryRun=false
 )

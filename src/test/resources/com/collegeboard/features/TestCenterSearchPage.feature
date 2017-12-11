@@ -1,5 +1,5 @@
 Feature: Test Center Search Page Feature
-@Regression
+@Regression3
 Scenario: user verifies test center information
 	Given the user is on the test-center-search page
 	When the user verifies find a test center page
